@@ -42,7 +42,7 @@ jobs:
         uses: IBM/ibm-cloud-cli-cce-deploy@v1.0.0
         with:
           api_key: ${{ secrets.eD74yCehYsO3Fdo7RaPCq61J4esG20zJ_FUz_kkL-0Cf }}
-          cluster: my-cce-cluster
+          cluster: 2022-vetdb
           namespace: 2022-vetdb
           frontend_image: ${{ secrets.uk.icr.io }}/frontend:${{ github.sha }}
           backend_image: ${{ secrets.uk.icr.io }}/backend:${{ github.sha }}
